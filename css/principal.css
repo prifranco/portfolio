@@ -1,0 +1,70 @@
+.principal {
+    background-color: #060216; 
+    height: 100vh;
+}
+
+.principal-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10em;
+    padding: 6em 1em;
+}
+
+.principal-imagem img {
+    width: 35em;
+    height: 35em;
+}
+
+.principal-textos {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal__intro {
+    font-size: 1.5em;
+    color: #a2a2a2;
+    margin-bottom: 0.5em;
+    font-weight: 100;
+}
+
+
+.principal__nome{
+    font-size: 4em;
+    color: #ffffff;
+    margin-bottom: 0.3em;
+    font-weight: 300;
+}
+
+.principal__funcao {
+    color: #d4d4d4;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.botao-instagram button {
+    width: 20em;
+    height: 4em;
+    background: linear-gradient(to right, #060129, #0f0149);
+    border: 1px solid #1b0088;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 2px;
+}
+
+.botao-instagram button:hover {
+    background: linear-gradient(to right, #110180, #120153);
+    transition: .5s;
+    width: 21em;
+}
+
+.botao-instagram button a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2em;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+

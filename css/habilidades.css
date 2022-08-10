@@ -1,0 +1,43 @@
+.conhecimentos {
+    background-color: var(--fundo-alternativo);
+    height: 100vh;
+}
+
+.conhecimentos__titulo {
+    padding: 3em;
+    text-align: center;
+    font-size: 2em;
+    color: var(--titulo-secao);
+}
+.conhecimentos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.conhecimentos__descricao {
+    color: #7e7e7e;
+    font-size: 1.025em;
+    font-weight: 200;
+}
+
+.linguagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3em;
+}
+
+
+
+
+.linguagens img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+

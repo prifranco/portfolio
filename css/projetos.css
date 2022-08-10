@@ -1,0 +1,106 @@
+.projetos {
+    height: 100vh;
+    background-color: #060216;
+    text-align: center;
+}
+
+.projetos__nome-secao {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 1em;
+}
+
+.projetos__titulo {
+    color: #f1f1f1;
+}
+
+.projeto__icone {
+    color: #0b0194;
+}
+
+.projetos__titulo, .projeto__icone {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 3em; 
+    margin-bottom: 3em;
+}
+
+.projetos-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1em 2em;
+}
+
+.projeto__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #0b0194;
+    transition: .3s;
+    height: 15em;
+    padding: 0.8em;
+}
+
+.projeto__card:hover {
+    padding: 0.7em;
+    border: 1px solid #27c707;
+    transition: .3s;
+    height: 16em;
+}
+
+.projeto__titulo {
+    margin-top: 1em;
+    color: #f1f1f1;
+    font-size: 1.5em;
+}
+
+.projeto__descricao {
+    font-size: 1em;
+    padding: 1em;
+    color: #878787;
+    line-height: 1.5em;
+}
+
+.projeto__link {
+    text-decoration: none;
+    color: #0b0194;
+    font-size: 1.025em; 
+    transition: .2s;  
+}
+
+.projeto__link:hover {
+    color: #27c707;
+    transition: .2s;
+    cursor: pointer;
+    font-size: 1.030em;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    padding: 1em;
+}
+
+.github button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.github button a, .github__arrow{
+    text-decoration: none;
+    color:#0b0194;
+    font-size: 1.25em;
+}
+
+
+  
+    

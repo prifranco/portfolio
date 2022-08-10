@@ -1,0 +1,54 @@
+.sobre {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0f0b1e;
+    padding: 2em 8em;
+}
+
+.sobre__imagem img{
+    margin-top: 3em;
+    width: 40em;
+    height: 40em;
+}
+
+.sobre__titulo {
+    font-size: var(--tamanho-titulo);
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.btn-curriculo button {
+    width: 20em;
+    height: 4em;
+    background: linear-gradient(to right, #060129, #0f0149);
+    border: 1px solid #1b0088;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 2px;
+    margin-top: 1em;
+}
+
+.btn-curriculo button:hover {
+    background: linear-gradient(to right, #110180, #120153);
+    transition: .5s;
+    width: 21em;
+}
+
+.btn-curriculo button a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2em;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.sobre__descricao {
+    text-indent: 1ch;
+    font-size: 1em;
+    font-weight: 200;
+    color: #b4b4b4;
+    line-height: 2em;
+}

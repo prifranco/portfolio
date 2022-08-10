@@ -1,0 +1,54 @@
+.container {
+    background-color: #040014;
+    height: 4.5em;
+    position:fixed;
+    width: 100%;
+    box-shadow: 5px 1px 2px #0d0239;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.icone-logo {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.logo {
+    color: var(--titulo-secao);
+    font-size: 2em;
+    font-weight: 200;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.cabecalho__itens {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2em; 
+}
+
+.cabecalho__link a {
+    text-decoration: none;
+    color: #b4b4b4;
+    font-size: 1.025em;
+    font-weight: 400;
+    padding: 1em;
+    transition: .5s;
+}
+
+.cabecalho__link a:hover{
+    cursor: pointer;
+    color: #2f00ec;
+    transition: .5s;
+}
